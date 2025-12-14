@@ -14,17 +14,17 @@ A Node.js and PostgreSQL backend system for managing hospital bed allocation bas
 - Postman for API testing
 - dotenv for environment variables
 
-## Project Structure
+## Project Structure 
 hospital-bed-allocation/
 ├── src/
-│   ├── app.js          # Main server file
-│   ├── db.js           # PostgreSQL connection
-│   ├── controllers/    # API logic
-│   └── routes/         # API endpoints
+│ ├── app.js # Main server file
+│ ├── db.js # PostgreSQL connection
+│ ├── controllers/ # API logic
+│ └── routes/ # API endpoints
 ├── package.json
 ├── package-lock.json
 ├── Hospital-Bed-Allocation.postman_collection.json
-├── Screenshots/        # Postman API response images
+├── Screenshots/ # Postman API response images
 └── README.md
 
 ## Setup Instructions
