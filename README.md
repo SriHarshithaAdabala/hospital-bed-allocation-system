@@ -14,19 +14,6 @@ A Node.js and PostgreSQL backend system for managing hospital bed allocation bas
 - Postman for API testing
 - dotenv for environment variables
 
-## Project Structure 
-hospital-bed-allocation/
-├── src/
-│ ├── app.js # Main server file
-│ ├── db.js # PostgreSQL connection
-│ ├── controllers/ # API logic
-│ └── routes/ # API endpoints
-├── package.json
-├── package-lock.json
-├── Hospital-Bed-Allocation.postman_collection.json
-├── Screenshots/ # Postman API response images
-└── README.md
-
 ## Setup Instructions
 
 1. **Clone the repository**
@@ -55,8 +42,8 @@ hospital-bed-allocation/
 
 4. **Start the server**
    npm start
-- The server will run on: http://localhost:3000
-- You should see in console:
+   - The server will run on: http://localhost:3000
+   - You should see in console:
   DB connected: { current timestamp }
 
 5. **Test APIs**
@@ -65,6 +52,7 @@ hospital-bed-allocation/
    - Screenshots of successful responses are below.
 
 ***Screenshots of Successful API Calls***
+
 Add Patient
 <img width="1600" height="757" alt="image" src="https://github.com/user-attachments/assets/591b10fc-0a14-44ca-bcde-72b058711854" />
 
