@@ -67,6 +67,6 @@ Allocate Bed
 - All API errors are logged in console for debugging.
 - Can be extended to include user authentication, frontend interface, or advanced allocation logic.
 
-**Author**
-- Harshitha Adabala | B.Tech 2025
+**📌Author**
+- Sri Harshitha Adabala | B.Tech 2025
 
