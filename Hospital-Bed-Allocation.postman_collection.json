@@ -1,0 +1,79 @@
+{
+  "info": {
+    "name": "Hospital Bed Allocation API",
+    "_postman_id": "d1a3b8a2-1234-4567-8901-bedallocation",
+    "description": "Postman collection for Hospital Bed Allocation System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add Hospital",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Apollo Hospital\",\n  \"location\": \"Hyderabad\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/hospitals/add",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["hospitals", "add"]
+        }
+      }
+    },
+    {
+      "name": "Add Patient",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Alice\",\n  \"condition\": \"CRITICAL\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/patients/add",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["patients", "add"]
+        }
+      }
+    },
+    {
+      "name": "Allocate Bed (Priority Based)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"patient_id\": 1,\n  \"hospital_id\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/allocate/add",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["allocate", "add"]
+        }
+      }
+    }
+  ]
+}
